@@ -406,9 +406,8 @@ button {
   background-color: #f4f4fd;
 }
 .team-container {
-  width: 296px;
-  padding: 96px 16px;
-  margin: 0 auto;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .team-title {
   font-family: "Roboto", sans-serif;
@@ -484,7 +483,7 @@ button {
 }
 @media screen and (min-width: 768px) {
   .team-container {
-    width: 584px;
+    max-width: 584px;
     padding-left: 16px;
     padding-right: 16px;
   }
@@ -502,7 +501,7 @@ button {
 
 @media screen and (min-width: 1158px) {
   .team-container {
-    width: 1158px;
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -664,7 +663,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 400;
-  width: 264px;
 }
 .footer-right {
   display: flex;
@@ -790,6 +788,9 @@ button {
 
   .footer-left {
     align-items: flex-start;
+  }
+  .footer-text {
+    width: 264px;
   }
 
   .footer-right {
